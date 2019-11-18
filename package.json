@@ -21,6 +21,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.7",
     "jest": "^24.9.0"
   }
 }
