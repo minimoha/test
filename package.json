@@ -4,9 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
+    "test": "mocha",
     "test:coverage": "jest --coverage",
     "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +23,8 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.7",
-    "jest": "^24.9.0"
+    "istanbul": "^0.4.5",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.2"
   }
 }
